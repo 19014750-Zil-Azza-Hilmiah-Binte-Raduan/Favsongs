@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="10dp"
-    tools:context=".SecondActivity" >
+    tools:context=".SecondActivity"
+    android:background="@drawable/photo_2021-08-16_23-10-19.jpg">
 
     <Button
         android:id="@+id/btnShow5Stars"
