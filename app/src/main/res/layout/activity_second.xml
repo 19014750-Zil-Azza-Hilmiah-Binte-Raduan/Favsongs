@@ -1,17 +1,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_margin="10dp"
+    android:padding="10dp"
     tools:context=".SecondActivity"
-    android:background="@drawable/photo_2021-08-16_23-10-19.jpg">
+    android:background="@drawable/pic3">
 
     <Button
         android:id="@+id/btnShow5Stars"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/btn5Stars"  />
+        android:text="@string/btn5Stars"
+        app:backgroundTint="#00BFA5" />
 
     <Spinner
         android:id="@+id/spinnerYear"
